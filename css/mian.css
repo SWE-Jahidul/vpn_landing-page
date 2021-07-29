@@ -1,0 +1,99 @@
+
+.counter-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.count.icon-users {
+    background: #fceae8;
+    padding: 20px;
+}
+.count.icon-users {
+    background: #fceae8;
+    padding: 15px 18px;
+    color: #ff428e;
+}
+
+
+
+.choose-your-plan{
+    background-color:#F6F6F6 ;
+}
+.card-img-top {
+
+    width: 45%;
+    height: 12vw;
+}
+
+.brand-images img{
+    width: 10%;
+    height: 5vw;
+}
+
+.card-body {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover{
+    border: 2px solid #F53838 ;
+}
+
+
+/* Social Icons  */
+.social-icons
+{
+    background: #fceae8;
+    height: 33.6px;
+    width: 33.6px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+.s_i 
+{
+
+
+    color: #ff3685;
+
+
+}
+
+.subscribe{
+    position: relative;
+    bottom: -100px;
+    justify-items: center;
+}
+.foot_head{
+    margin-top: 10%;
+}
+
+/* mobile Media Query  */
+@media only screen and (max-width:688px) {
+
+
+
+    .card-img-top {
+  
+      width: 70%;
+      height: 65vw;
+  }
+  .brand-images img{
+    width: 40%;
+    height: 15vw;
+}
+
+
+  .subscribe{
+    position: relative;
+    justify-items: center;
+}
+.ft-m{
+    margin-top:40%;
+}
+
+  }
